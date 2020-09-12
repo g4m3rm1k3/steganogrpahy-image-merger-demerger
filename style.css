@@ -1,0 +1,28 @@
+body {
+  background: lightgray;
+}
+.header {
+  font-family: arial;
+  color: darkgray;
+  background: black;
+  padding: 20px;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+.foreground-card,
+.background-card {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+canvas {
+  display: inline;
+  width: 400px;
+  border: 2px solid black;
+}
+h2 {
+  width: 25%;
+  padding: 4px;
+  margin-top: 4px;
+}

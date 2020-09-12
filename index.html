@@ -1,0 +1,24 @@
+<script src="script.js">
+</script>
+<link rel="stylesheet" href="style.css">
+<h1 class="header">Display an image</h1>
+<hr>
+
+<div class="foreground-card">
+	<h2>Foreground</h2>
+	<canvas id="foreground"></canvas>
+	<input type="file" id="finput" multiple="false" accept="image/jpg, image/jpeg image/png" onchange="loadfg()">
+</div>
+
+<div class="background-card">
+  <h2>Background</h2>
+  <canvas id="background"></canvas>
+  <input type="file" id="binput" multiple="false" accept=" image/jpg, image/jpeg image/png" onchange="loadbg()">
+</div>
+
+<input type="button" onclick="hide()" value="Hide">
+<input type="button" onclick="show()" value="Show">
+
+
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
